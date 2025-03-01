@@ -1,0 +1,36 @@
+{
+    "name": "@monkeysfoot/daysjs",
+    "version": "0.0.1",
+    "description": "Days js date package",
+    "scripts": {
+        "build": "tsup ./src/index.ts",
+        "testprog": "tsx ./src/days_test.ts"
+    },
+    "files": [
+        "dist"
+    ],
+    "exports": {
+        "./package.json": "./package.json",
+        ".": {
+            "import": "./dist/index.js",
+            "default": "./dist/index.cjs"
+        }
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "Sean Mathews",
+    "license": "MIT",
+    "devDependencies": {
+        "tsup": "^8.4.0",
+        "tsx": "^4.19.3",
+        "typescript": "^5.8.2"
+    },
+    "pnpm": {
+        "ignoredBuiltDependencies": [
+            "esbuild"
+        ],
+        "onlyBuiltDependencies": [
+            "esbuild"
+        ]
+    }
+}
