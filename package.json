@@ -1,6 +1,6 @@
 {
     "name": "@monkeysfoot/daysjs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Days js date package",
     "scripts": {
         "build": "tsup ./src/index.ts",
