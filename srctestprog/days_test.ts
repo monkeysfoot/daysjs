@@ -1,5 +1,5 @@
 // test.ts
-import { fromYMD, toYMD, dayOfWeek, lastDayOfMonth } from './days.js';
+import { fromYMD, toYMD, dayOfWeek, lastDayOfMonth } from '../src';
 
 /**
  * Throws an error if the provided condition is false.
